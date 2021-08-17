@@ -13,11 +13,11 @@
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ediaristas',
-        'HOST': 'localhost',
-        'PORT': 3306,
-        'USER': 'root',
-        'PASSWORD': 'root'
+        'NAME': 'nome_do_bd',
+        'HOST': 'host_do_bd',
+        'PORT': porta,
+        'USER': 'user_bd',
+        'PASSWORD': 'password_bd'
     }
 }
 
